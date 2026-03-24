@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Flexbox Assignment</title>
+
+<style>
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  background: #eaeaea;
+  padding: 15px;
+  font-weight: bold;
+}
+
+/* Main Section */
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 60px 20px;
+  background: linear-gradient(to right, #cfd9df, #e2ebf0);
+}
+
+/* Cards */
+.card {
+  background: white;
+  width: 200px;
+  padding: 20px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* Circle Image */
+.card img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+/* Tag */
+.tag {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 5px 10px;
+  border-radius: 12px;
+  font-size: 12px;
+  color: white;
+}
+
+/* Different colors */
+.blue { background: #4da6ff; }
+.orange { background: #ff944d; }
+.pink { background: #ff66a3; }
+.green { background: #66cc99; }
+
+.card h3 {
+  margin: 10px 0 5px;
+}
+
+.card p {
+  font-size: 12px;
+  color: gray;
+}
+</style>
+</head>
+
+<body>
+
+<!-- Navbar -->
+<div class="navbar">
+  <div>Home</div>
+  <div>Features</div>
+  <div>Lifestyle</div>
+  <div>Technology</div>
+  <div>All articles</div>
+</div>
+
+<!-- Cards Section -->
+<div class="container">
+
+  <div class="card">
+    <img src="https://www.apa.org/images/lifestyle-changes-title-image_tcm7-211644.jpg">
+    <div class="tag blue">Travel</div>
+    <h3>Golden Gate Bridge</h3>
+    <p>Learning a new language is challenging but rewarding.</p>
+  </div>
+
+  <div class="card">
+    <img src="https://www.apa.org/images/lifestyle-changes-title-image_tcm7-211644.jpg">
+    <div class="tag orange">Technology</div>
+    <h3>We Bought a Drone!</h3>
+    <p>Exploring new gadgets can be exciting and useful.</p>
+  </div>
+
+  <div class="card">
+    <img src="https://www.apa.org/images/lifestyle-changes-title-image_tcm7-211644.jpg">
+    <div class="tag pink">Lifestyle</div>
+    <h3>This Week’s Accessories</h3>
+    <p>Fashion trends change, stay updated with style.</p>
+  </div>
+
+  <div class="card">
+    <img src="https://www.apa.org/images/lifestyle-changes-title-image_tcm7-211644.jpg">
+    <div class="tag green">Lifestyle</div>
+    <h3>Denim for Spring</h3>
+    <p>Lightweight clothing is perfect for warm weather.</p>
+  </div>
+
+</div>
+
+</body>
+</html>
